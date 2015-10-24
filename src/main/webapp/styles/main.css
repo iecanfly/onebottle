@@ -1,0 +1,112 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: FLATTY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+/* Custom style starts */
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+
+
+.home-container{
+    height: 70%;
+    display: table;
+    vertical-align: middle;
+}
+
+
+.vertical-center-row{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* Custom style ends */
+
+
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Microsoft YaHei", "宋体", "微软雅黑", STXihei, "华文细黑", sans-serif, serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei", "宋体", "微软雅黑", STXihei, "华文细黑", sans-serif, serif;
+    font-weight: 300;
+    color: #333;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #69D2E7;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+#navbar > ul > li.active > a {
+    color:#000000;
+}
+
+#navbar > ul > li > a {
+    background-color: #3498db;
+}
+
+
+

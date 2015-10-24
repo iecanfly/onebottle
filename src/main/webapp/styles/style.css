@@ -1,0 +1,472 @@
+.carousel-inner .item img {
+    margin: auto;
+}
+
+#content {
+    margin-top: -20px;
+    overflow: hidden;
+}
+
+#header {
+    padding: 5px 0;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+}
+
+#headerwrap-xs h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* HeaderWrap */
+.headerwrap {
+    background: url("../images/background.jpg") no-repeat center center;
+    padding-top:100px;
+    min-height: 650px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.headerwrap h1 {
+    margin-top: 120px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+body {
+    padding-top: 80px;
+}
+
+
+
+.nav-stacked .nav-header {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+body#login {
+    padding-bottom: 40px;
+}
+
+.navbar .brand:hover {
+    color: #0099ff;
+}
+
+/* added to fix non clickable dropdown nested menus on mobile browsers APF-1384 */
+.navbar .dropdown-backdrop {
+	position: static;
+}
+
+#switchLocale {
+    position: absolute;
+    right: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+#content {
+    padding-bottom: 60px;
+}
+
+.row h2 {
+    margin-top: 0;
+}
+
+/* FORMS */
+
+.controls.readonly {
+    padding-top: 5px;
+}
+
+.well.form-horizontal .form-actions {
+    margin-bottom: 0;
+}
+
+.btn-group {
+    margin-bottom: 10px;
+}
+
+.btn-group .btn, .form-actions .btn {
+    margin-left: 5px;
+}
+
+#search {
+    float: right;
+    margin-top: -40px;
+    width: 250px;
+}
+
+#search input[type="text"] {
+    display: inline-block;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#login p {
+    text-align: center
+}
+
+/* When using Wicket tag id can be overridden - using class here seems to more universal */
+.login p {
+    text-align: center
+}
+
+/* TABLES */
+
+th.sorted a, th.sortable a {
+    display: block;
+}
+
+.table th.order1 a {
+    background-image: url(../images/arrow_down.png);
+}
+
+.table th.order2 a {
+    background-image: url(../images/arrow_up.png);
+}
+
+.table th.sorted a, .table th.sortable a {
+    background-position: right;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+div.exportlinks a {
+    text-decoration: none;
+}
+
+div.exportlinks span {
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+}
+
+span.csv {
+    background-image: url(../images/ico_file_csv.png);
+}
+
+span.excel {
+    background-image: url(../images/ico_file_excel.png);
+}
+
+span.pdf {
+    background-image: url(../images/ico_file_pdf.png);
+}
+
+span.xml {
+    background-image: url(../images/ico_file_xml.png);
+}
+
+span.export {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 4px 1px 20px;
+}
+
+span.pagebanner {
+    display: block;
+    margin: 0 0 0 10px;
+    padding: 2px 4px 2px 0;
+}
+
+span.pagelinks {
+    display: block;
+    font-size: .95em;
+    margin-bottom: 5px;
+    margin-top: -18px;
+    padding: 2px 0 2px 0;
+    text-align: right;
+    width: 80%;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    background-color: #f5f5f5;
+}
+
+/* FOOTER */
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    color: #808080;
+    font-size: 0.9em;
+}
+
+#footer a {
+    color: #808080;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+
+}
+
+/* Tablet to desktop
+------------------------- */
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+
+    #search {
+        float: none;
+        margin-top: 0;
+    }
+}
+
+/* Wicket */
+.table thead tr th.wicket_orderDown a {
+    background-image: url(../images/arrow_down.png) !important;
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: block;
+    /*padding-right: 15px;*/
+}
+
+.table thead tr th.wicket_orderUp a {
+    background-image: url(../images/arrow_up.png) !important;
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* Fix for Bootstrap theme errors in PrimeFaces: http://forum.primefaces.org/viewtopic.php?f=9&t=19250&start=10 */
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {
+    background: url("") repeat-x scroll 50% 50% #CD0A0A;
+    border: 1px solid #CD0A0A;
+    color: #FFFFFF;
+}
+
+
+/* Helpers */
+
+.text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
+    text-align: left;
+}
+.text-center-not-xs, .text-center-not-sm, .text-center-not-md, .text-center-not-lg {
+    text-align: center;
+}
+.text-right-not-xs, .text-right-not-sm, .text-right-not-md, .text-right-not-lg {
+    text-align: right;
+}
+.text-justify-not-xs, .text-justify-not-sm, .text-justify-not-md, .text-justify-not-lg {
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .text-left-not-xs, .text-center-not-xs, .text-right-not-xs, .text-justify-not-xs {
+        text-align: inherit;
+    }
+    .text-left-xs {
+        text-align: left;
+    }
+    .text-center-xs {
+        text-align: center;
+    }
+    .text-right-xs {
+        text-align: right;
+    }
+    .text-justify-xs {
+        text-align: justify;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-left-not-sm, .text-center-not-sm, .text-right-not-sm, .text-justify-not-sm {
+        text-align: inherit;
+    }
+    .text-left-sm {
+        text-align: left;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .text-right-sm {
+        text-align: right;
+    }
+    .text-justify-sm {
+        text-align: justify;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-left-not-md, .text-center-not-md, .text-right-not-md, .text-justify-not-md {
+        text-align: inherit;
+    }
+    .text-left-md {
+        text-align: left;
+    }
+    .text-center-md {
+        text-align: center;
+    }
+    .text-right-md {
+        text-align: right;
+    }
+    .text-justify-md {
+        text-align: justify;
+    }
+}
+@media (min-width: 1200px) {
+    .text-left-not-lg, .text-center-not-lg, .text-right-not-lg, .text-justify-not-lg {
+        text-align: inherit;
+    }
+    .text-left-lg {
+        text-align: left;
+    }
+    .text-center-lg {
+        text-align: center;
+    }
+    .text-right-lg {
+        text-align: right;
+    }
+    .text-justify-lg {
+        text-align: justify;
+    }
+}
+
+.top1 { margin-top:1px; }
+.top2 { margin-top:2px; }
+.top3 { margin-top:3px; }
+.top5 { margin-top:5px; }
+.top8 { margin-top:8px; }
+.top13 { margin-top:13px; }
+.top21 { margin-top:21px; }
+.top34 { margin-top:34px; }
+.top55 { margin-top:55px; }
+.top89 { margin-top:89px; }
+.top144 { margin-top:144px; }
+.top233 { margin-top:233px; }
+.top377 { margin-top:377px; }
+.top610 { margin-top:610px; }
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.signup-form-control {
+    height: 42px;
+    font-size: 18px;
+    width: 280px;
+}
+
+i {
+    margin: 8px;
+    color: #3498db;
+}
+
+.auto-margin {
+    margin: auto
+;
+}
